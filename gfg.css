@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    height: 50px;
+    width: 100vw;
+}
+nav .container{
+    height: inherit;
+    width: inherit;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+nav a:hover{
+    color: darkgreen;
+}
+.container div{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+.search{
+    min-height: 100px;
+    width: 90%;
+    margin-left: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.bar{
+    width: 50%;
+    height: 100%;
+}
+#input{
+    width: 100%;
+    font-size: 20px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+section{
+    background:linear-gradient(to bottom,rgb(71, 178, 227,1.6),black);
+    overflow-x: hidden;
+}
+section .box{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+.box .card{
+    width: 100%;
+    min-height: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card >div{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.card>div:hover{
+    transform: scale(1.1);
+}
+.box h2{
+    padding-top: 40px;
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+}
+.card .name{
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+.name h4{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.name p{
+    padding-top: 15px;
+    padding-left: 10px;
+    color: gray;
+}
+.card .image,.card .name{
+    height: 40%;
+    width: 100%;
+}
+.card .cost{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(18, 18, 18);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card .image{
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 2;
+}
+.card1 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/504/Web/Content/DSA-to-Dev_1705410853.webp);
+     
+}
+.card2 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/241/Web/Content/FSRNL_1705410152.webp);
+}
+.card3 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/543/Web/Content/gateda_1711440087.webp);
+}
+.card4 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/405/Web/Content/ML-DS_1705408960.webp);
+}
+.card5 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/458/Web/Content/interview-101_1705399030.webp);
+}
+.card6 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/517/Web/Content/Software-Testing_1705407884.webp);
+}
+.card7 .image{
+    background-image: url( https://media.geeksforgeeks.org/img-practice/prod/courses/227/Web/Content/JAVA-Backend-Development_1705409529.webp);
+}
+.card8 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/483/Web/Content/devops-web_1705409371.webp);
+}
+.card9 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/270/Web/Content/Java-Programming_1705409391.webp);
+}
+.card10 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/221/Web/Content/Master-Cpp_1705409250.webp);
+}
+.card11 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/345/Web/Content/Master-JavaScript_1705409131.webp);
+}
+.card12 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/287/Web/Content/c-web_1705404509.webp);
+}
+.card13 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/261/Web/Content/dsa-web_1705410455.webp);
+}
+.card14 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/198/Web/Content/DSA_1705410714.webp);
+}
+.card15 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/570/Web/Content/Cloud%20Practitioner%20aws-64_1704356096.webp);
+}
+.card16 .image{
+    background-image: url(https://media.geeksforgeeks.org/img-practice/prod/courses/406/Web/Content/data-ana-sp_1705409864.webp);
+}
+.cards{
+    margin-top: 20px;
+    min-height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.cards>div{
+    width: 300px;
+    height:80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.smallcard1{
+    background-color: rgb(245, 138, 102,0.7);
+}
+.smallcard2{
+    background-color: rgba(21, 129, 244, 0.697);
+}
+.smallcard3{
+    background-color: rgb(98, 212, 110,0.7);
+}
+.smallcard4{
+ background-color: rgb(94, 120, 125);
+}
+.smallcard5{
+    background-color: rgb(36, 53, 58);
+}
+.smallcard6{
+    background-color:darkgreen ;
+    opacity: 0.9;
+}
+.smallcard7{
+    background-color: rgb(234, 133, 238);
+    opacity: 0.9;
+}
+.smallcard8{
+    background-color: rgb(238, 165, 28);
+}
+.card button{
+    background-color: inherit;
+    padding: 5px 20px;
+    color:rgb(28, 187, 28);
+    border: 2px solid rgb(28, 187, 28);
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+.big{
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 20px;
+    left: 15px;
+}
+.small{
+    position: relative;
+    top:20px ;
+    left: 15px;
+    text-decoration: line-through;
+    color: gray;
+}
+footer .fbox{
+    display: flex;
+    background-color: black;
+}
+footer .fleft{
+    height: 100%;
+    min-height: 100%;
+    width: 25%;
+}
+footer .fright{
+    min-height: 100%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fright div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 200px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 2px;
+}
+footer h4{
+    color: darkgreen;
+
+}
+.fleft div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.fleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+
+}
+footer a:hover{
+    color: darkgreen;
+}
+footer h4:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .search{
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+    .bar{
+        width: 90%;
+        padding:30px 0px;
+    }
+  }
+  @media only screen and (max-width: 800px){
+    .fbox{
+        flex-direction: column;
+        
+    }
+    .fbox div{
+        width: 70%;
+        margin: auto;
+   }
+   nav a{
+    z-index: -2;
+   }
+  }
